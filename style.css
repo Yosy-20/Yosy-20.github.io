@@ -1,13 +1,21 @@
 /* Barra de navegacion */
+.icon21{
+  width: 80px ;
+  height:60px;
+}
 
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  background-color: #ad9984;
 }
 
 .navbar-collapse {
   align-items: center;
   justify-content: space-between;  
+}
+.navbar-brand img{
+ width: 110px ;
+ height:80px;
 }
 
 /* Estilos generales */
@@ -20,13 +28,15 @@ section {
 }
 
 h1 {
-  font-size: 2.5rem;
-  font-family: 'Rubik Dirt', cursive;
+  font-size: 3rem;
+  font-family: 'Nunito', sans-serif;
+  /*font-family: 'Nunito Sans', sans-serif;*/
+  
 }
 
 .seccion-oscura {
   color: white;
-  background-color: #1b1b32;
+  background-color: #644b39;
 }
 
 .seccion-clara {
@@ -48,7 +58,9 @@ h1 {
 .seccion-texto {
   font-size: 1.2rem;
 }
-
+.seccion-texto2 {
+  font-size: 1.2rem;
+}
 .btn-info {
   font-size: 1.1rem;
   margin: 20px;
@@ -115,13 +127,13 @@ h1 {
 
 .experiencia .columna:hover {
   color: white;
-  background-color: #1b1b32;
+  background-color: #644b39;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
-  background-color: #0a0a23;
+  color: #644b39;
+  background-color: #ad9984;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -265,7 +277,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color: #553f30;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -314,8 +326,8 @@ footer {
 }
 
 .footer-logo {
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 130px;
   margin: 10px;
 }
 
@@ -347,7 +359,7 @@ footer {
 
 .iconos-redes-sociales a:hover {
   background-color: white;
-  border: 2px solid rgb(13, 110, 253);
+  border: 2px solid #ad9984;
 }
 
 .iconos-redes-sociales a:hover i {
