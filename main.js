@@ -31,12 +31,12 @@ let app = document.getElementById('typewriter');
 let typewriter = new Typewriter(app, {
     loop: true,
     delay: 75,
-    cursor: "<span style='color: #644b39;'>|</span>",
+    cursor: "<span style='color: #ecd4a5;'>|</span>",
 });
 
 typewriter
     .pauseFor(2500)
-    .typeString('<span style="color: #644b39;">Development of websites, web applications, and desktop applications, as well as designing 3D modeled characters and implementing video games.</span>')
+    .typeString('<span style="color: #ecd4a5;">Development of websites, web applications, and desktop applications, as well as designing 3D modeled characters.</span>')
     .pauseFor(200)
     .deleteChars(10)
     .start();
