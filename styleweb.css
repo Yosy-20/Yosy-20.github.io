@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: 
+    linear-gradient(to bottom right, #242221,  #413e3d, #242221),
+    repeating-radial-gradient(circle at 0 0, transparent 0, transparent 15px, rgba(0,0,0,0.1) 30px);
+    background-size: 100% 100%, 75px 50px;  
+   
+  }
+  /* Barra de navegacion */
+
+.navbar {
+  font-family: Arial, sans-serif;
+  list-style-type: none;
+  align-items: center;
+  padding: 8px;
+  height: 100px;
+  justify-content: space-between; 
+  /*border: 2px solid #6f625a;*/
+
+  }
+  .navbar-collapse {
+    align-items: center;
+    justify-content: space-between;  
+  }
+  
+  .nav-logo{
+    display: flex;
+  }
+
+  .nav-logo img{
+    margin-left: 50px;
+    margin-right: 1px;
+    margin-top: 15px;
+    padding-bottom: 5px;
+    width: 100px;
+    height: 110px;
+    border-radius: 50%;
+    justify-content:right;
+  
+
+  } 
+  .navbar h2{
+    margin-left: 0%;
+    margin-right: 10px;
+    padding-top: 28px;
+    margin-top: 10px;
+    align-items: center;
+    font-family: "Sumana", serif;
+    font-weight: 420;
+    font-style: normal;
+    color: #b0aba0;
+  }
+
+
+  .nav-item{
+    display: inline-block;
+    margin-left: 20px;
+    padding: 0;
+    text-align: left; 
+  }
+
+  .nav-item .btn{
+    color:#b0aba0;
+    padding:8px;
+    border-radius: 0px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+ .btn:hover{
+    border-bottom-color: #e8d5ae;
+  }
+  #contact {
+  background-color:#413e3d ;
+  border-radius: 100px;
+  color:#ecd4a5;
+  }
+
+  #contact:hover{
+    background-color: #201c1b ;
+     border-bottom-color: #201c1b;
+  }
+   /* Informacion principal */
+  .section1{
+    padding: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+    height: 630px;
+    
+  }
+
+   /* Pie de pagina (footer) */
+
+footer {
+  min-height: 300px;
+  background-color: #242322;
+}
+
+.footer-logo {
+  height: 130px;
+  width: 120px;
+  margin: 10px;
+}
+
+.footer-texto {
+  font-size: 1.3rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  color:#a09c93;
+  font-family: Arial, sans-serif;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid #a09c93;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: #a09c93;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: #a09c93;
+  border: 2px solid #78756f;
+}
+
+.iconos-redes-sociales a:hover i {
+  color:#242322;
+}
+
+.derechos-de-autor {
+  font-size: 15px;
+  color: #b0aba0;
+  padding: 20px;
+}
